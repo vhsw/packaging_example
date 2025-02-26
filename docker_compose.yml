@@ -1,0 +1,7 @@
+services:
+  package_a:
+    build:
+      dockerfile: ./package_a/Dockerfile
+  package_b:
+    build:
+      dockerfile: ./package_b/Dockerfile
